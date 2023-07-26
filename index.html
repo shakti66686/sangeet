@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>sangeet</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-section">
+            <h2>Playlist</h2>
+            <div class="menu-list-section">
+                <h2 class="menu-list"><span></span><i class="bi bi-music-note-beamed"></i>Playlist </h2>
+                <h2 class="menu-list"><span></span><i class="bi bi-music-note-beamed"></i>Last Listening</h2>
+                <h2 class="menu-list"><span></span><i class="bi bi-music-note-beamed"></i>Recommended</h2>
+            </div>
+            <div class="song-section">
+                <div class="songs songs-class"><span class="counting">01</span><img src="./songs img/img1.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <br><span class="artist"> B
+                            praag</span></h5><i class="bi songs-bi bi-play-circle" id="1"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">02</span><img src="./songs img/img2.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Kya loge tum <br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="2"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">03</span><img src="./songs img/img3.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Farishtey<br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="3"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">04</span><img src="./songs img/img4.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Roohedaariya<br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="4"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">05</span><img src="./songs img/img5.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Gallan teriya<br><span class="artist">Ammy</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="5"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">06</span><img src="./songs img/img6.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Pinjraa<br><span class="artist">Gurnazar</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="6"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">07</span><img src="./songs img/img7.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Pachtaoge<br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="7"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">08</span><img src="./songs img/img8.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Kyon<br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="8"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">09</span><img src="./songs img/img9.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Mann bharrya<br><span class="artist"> B praag</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="9"></i>
+                </div>
+                <div class="songs songs-class"><span class="counting">10</span><img src="./songs img/img10.jpg" alt=""
+                        class="img">
+                    <h5 class="target_song">Koi hor<br><span class="artist">Afsana khan</span></h5><i
+                        class="bi songs-bi bi-play-circle" id="10"></i>
+                </div>
+            </div>
+        </div>
+        <div class="main-top-section">
+            <div class="main-songs-section">
+                <nav>
+                    <ul>
+                        <li>Discover</li>
+                        <li>MY LIBRARY</li>
+                        <li>RADIO</li>
+                    </ul>
+                    <div class="serch-bar">
+                        <i class="bi bi-search"></i>
+                        <input type="text" placeholder="search music...." id="input">
+                    </div>
+                    <div class="logo">
+                        <img src="./logo.png" alt="" class="img">
+                    </div>
+                </nav>
+                <div class="main-song-singer">
+                    <h2>B praag-Fade</h2>
+                    <p>pick your best singers and their song to make up <br> your mood after listning this</p>
+                </div>
+                <div class="buttons">
+                    <button class="button">Play</button>
+                    <button class="button">FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular-songs">
+                <div class="h6">
+                    <h6>Popular Songs</h6>
+                    <div class="scroll-icon">
+                        <i class="bi bi-arrow-left-short" id="song_left_arrow"></i>
+                        <i class="bi bi-arrow-right-short" id="song_right_arrow"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="popular-song-div">
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="11">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span> </h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="12">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="13">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum<span class="artist"> B
+                            praag</span> </h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="14">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="15">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="16">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span> </h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="17">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum<span class="artist"> B
+                            praag</span> </h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="18">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="19">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+                <div class="songs-popular songs-class">
+                    <img src="./songs img/img1.jpg" alt="" class="img" id="20">
+                    <h5 class="target_song">Meri zindagi se jaane ka kya loge tum <span class="artist"> B
+                            praag</span></h5>
+                </div>
+            </div>
+            <div class="artist-div">
+                <div class="h6">
+                    <h6>Popular Artist</h6>
+                    <div class="scroll-icon">
+                        <i class="bi bi-arrow-left-short" id="art_left_arrow"></i>
+                        <i class="bi bi-arrow-right-short" id="art_right_arrow"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="artist-img-div">
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="21">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="22">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="23">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="24">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="25">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="26">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="27">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="28">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="29">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="30">
+                </div>
+                <div class="singer-img">
+                    <img src="./b-praag.jpg" alt="" class="img2" id="31">
+                </div>
+            </div>
+        </div>
+        <div class=" bottom-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./songs img/img8.jpg" alt="" class="bottom-img" id="masterplay-img">
+
+            <div class="bottom-play-nav">
+                <h4 class="bottom-song" id="bottom_play">
+                    kyon
+                </h4>
+                <div class="bottom-subtitle">
+                    B praag
+                </div>
+            </div>
+            <div class="bottom-icons">
+                <i class="music-bi bi bi-music-note-beamed"></i>
+                <i class="bi bi-skip-start-fill" id="skip_back"></i>
+                <i class="bi bi-play-fill" id="master-play"></i>
+                <i class="bi bi-skip-end-fill" id="skip_forward"></i>
+            </div>
+            <div class="start-time">0:01</div>
+            <div class="seek-bar">
+                <input type="range" id="progress-bar" min="0" max="100" value="0">
+            </div>
+            <div class="end-time">0:30</div>
+            <div class="volume">
+                <i class="bi bi-volume-down-fill" id="vol-icon"></i>
+                <div class="vol-bar">
+                    <input type="range" id="progress-bar" min="0" max="100" value="0">
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./script.js"></script>
+</body>
+
+</html>

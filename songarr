@@ -1,0 +1,121 @@
+const songs = [
+  {
+    id: 1,
+    songName: `<h5>Roohedaariya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img1.jpg",
+  },
+  {
+    id: 2,
+    songName: `<h5>Gallan Teriya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img2.jpg",
+  },
+  {
+    id: 3,
+    songName: `<h5>kaun Hoyega<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img3.jpg",
+  },
+  {
+    id: 4,
+    songName: `<h5>pinjrra<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img4.jpg",
+  },
+  {
+    id: 5,
+    songName: `<h5>Pachtaaoge<br><span class="artist">jaani</span></h5>`,
+    poster: "songs_img/img5.jpg",
+  },
+  {
+    id: 6,
+    songName: `<h5>Kyon<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img6.jpg",
+  },
+  {
+    id: 7,
+    songName: `<h5>Mann Bharya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img7.jpg",
+  },
+  {
+    id: 8,
+    songName: `<h5>koi hor<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img8.jpg",
+  },
+  {
+    id: 9,
+    songName: `<h5>Barris ki jaae<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img9.jpg",
+  },
+  {
+    id: 10,
+    songName: `<h5>ik mili mainu apsara<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img10.jpg",
+  },
+  {
+    id: 11,
+    songName: `<h5>Udd Gaya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img11.jpg",
+  },
+  {
+    id: 12,
+    songName: `<h5>Mera Yaar<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img12.jpg",
+  },
+  {
+    id: 13,
+    songName: `<h5>Bewafai kar gaya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img13.jpg",
+  },
+  {
+    id: 14,
+    songName: `<h5>Sab kuch<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img14.jpg",
+  },
+  {
+    id: 15,
+    songName: `<h5>salooq<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img15.jpg",
+  },
+  {
+    id: 16,
+    songName: `<h5>Aa chaliye<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img16.jpg",
+  },
+  {
+    id: 17,
+    songName: `<h5>Jhaanjar<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img17.jpg",
+  },
+  {
+    id: 18,
+    songName: `<h5>chum chum rakheya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img18.jpg",
+  },
+  {
+    id: 19,
+    songName: `<h5>Accha sila diya<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img19.jpg",
+  },
+  {
+    id: 20,
+    songName: `<h5>Aaj meri gali me kal kishi our ki<br><span class="artist"> B
+    praag</span></h5>`,
+    poster: "songs_img/img20.jpg",
+  },
+];
